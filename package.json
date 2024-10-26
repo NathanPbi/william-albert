@@ -1,0 +1,22 @@
+{
+  "name": "william-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/NathanPbi/william-albert.git",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "5.3.3",
+    "cli": "^1.0.1",
+    "firebase": "^10.14.1",
+    "swiper": "^10.0.0"
+  },
+  "scripts": {
+    "build": "echo This is a static template, there is no bundler or bundling involved!",
+    "start": "serve"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.80.4"
+  }
+}

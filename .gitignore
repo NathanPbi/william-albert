@@ -1,0 +1,27 @@
+# Ignorar node_modules e pacotes
+node_modules/
+.yarn/
+
+# Ignorar arquivos de lock (opcional)
+yarn.lock
+package-lock.json
+
+# Logs e arquivos de erro
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build e arquivos temporários
+!dist/
+!dist/css/   # Não ignorar a pasta CSS
+!dist/scss/  # Não ignorar a pasta SCSS
+
+# Ignorar editor e sistema
+gulpfile.js
+.firebase
+.firebaserc
+firebase.json
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
